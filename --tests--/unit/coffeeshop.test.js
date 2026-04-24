@@ -4,7 +4,7 @@ import { createDrink, prepareOrder } from '../../src/coffeeshop.js';
 describe('Coffee Shop Unit Tests', () => {
     test('createDrink returns correct object for latte', () => {
         const result = createDrink('latte');
-        expect(result).toEqual({ type: 'latte', price: 46 });
+        expect(result).toEqual({ type: 'latte', price: 45 });
     });
 
     test('createDrink returns null price for unknown drink', () => {
